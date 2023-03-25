@@ -3,7 +3,7 @@ from sklearn import datasets
 import numpy as np
 
 
-def centroid (X, Y):
+def centroid(X, Y):
     clusters = {}
     for x, y in zip(X, Y):
         if y in clusters:
